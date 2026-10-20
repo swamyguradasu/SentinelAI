@@ -1,0 +1,15 @@
+# SentinelAI - Predictive Maintenance & Sensor Anomaly Detection
+# Core ML & Numerical
+numpy>=1.26.0,<3.0.0
+pandas>=2.1.0,<4.0.0
+scipy>=1.12.0
+scikit-learn>=1.4.0
+joblib>=1.3.0
+requests>=2.31.0
+
+# Visualization & Dashboard
+streamlit>=1.35.0
+plotly>=5.20.0
+
+# Testing & Quality
+pytest>=8.0.0

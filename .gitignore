@@ -1,0 +1,52 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Pytest, Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Streamlit Local Configuration
+.streamlit/secrets.toml
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Sensitive & Secret Environment Files
+.env
+.env.*
+!.env.example
+
+# Datasets (Prevent committing large raw NASA data files)
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+*.txt.tmp
+
+# Serialized Model Artifacts & Binaries
+models/*.joblib
+*.joblib
+*.pkl
+*.pickle
+*.h5
+
+# Local Exported Results & Reports
+results/*.csv
+results/*.md
